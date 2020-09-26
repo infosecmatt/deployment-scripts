@@ -11,3 +11,6 @@ GNOME Tweak
 ## GNOME Extensions
 User themes
 Dash to dock
+
+## More styling
+Nice font: Garuda
