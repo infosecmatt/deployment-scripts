@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update && sudo apt upgrade
-sudo apt install -y chromium-browser gnome-tweaks
+sudo apt install -y chromium-browser gnome-tweaks vim
 
 sudo snap install --classic code #vscode
 sudo snap install spotify
