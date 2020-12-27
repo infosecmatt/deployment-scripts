@@ -1,0 +1,273 @@
+[apps/update-manager]
+first-run=false
+launch-count=2
+launch-time=int64 1608683403
+
+[com/ubuntu/update-notifier]
+release-check-time=uint32 1608614407
+
+[desktop/ibus/general]
+preload-engines=['xkb:us::eng']
+version='1.5.22'
+
+[org/gnome/calculator]
+accuracy=9
+angle-units='degrees'
+base=10
+button-mode='basic'
+number-format='automatic'
+show-thousands=false
+show-zeroes=false
+source-currency=''
+source-units='degree'
+target-currency=''
+target-units='radian'
+window-position=(14, 42)
+word-size=64
+
+[org/gnome/control-center]
+last-panel='display'
+
+[org/gnome/deja-dup]
+backend='google'
+prompt-check='2020-12-22T05:23:07+00'
+
+[org/gnome/deja-dup/file]
+migrated=true
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'gnome-system-monitor.desktop', 'gucharmap.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'simple-scan.desktop', 'vinagre.desktop', 'yelp.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+picture-uri='file:///home/matt/Pictures/grand-tetons.jpg'
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+clock-show-weekday=true
+cursor-theme='Yaru'
+document-font-name='Garuda 11'
+font-name='Garuda 11'
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='WhiteSur-light'
+icon-theme='Tela-circle-dark'
+locate-pointer=false
+show-battery-percentage=true
+text-scaling-factor=1.0
+
+[org/gnome/desktop/notifications]
+application-children=['update-manager', 'org-gnome-nautilus', 'gnome-power-panel', 'org-gnome-gedit', 'firefox', 'snap-store-ubuntu-software', 'org-gnome-extensions-desktop', 'org-gnome-chromegnomeshell', 'org-gnome-dejadup']
+
+[org/gnome/desktop/notifications/application/firefox]
+application-id='firefox.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-chromegnomeshell]
+application-id='org.gnome.ChromeGnomeShell.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-dejadup]
+application-id='org.gnome.DejaDup.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-extensions-desktop]
+application-id='org.gnome.Extensions.desktop.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-gedit]
+application-id='org.gnome.gedit.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/snap-store-ubuntu-software]
+application-id='snap-store_ubuntu-software.desktop'
+
+[org/gnome/desktop/notifications/application/update-manager]
+application-id='update-manager.desktop'
+
+[org/gnome/desktop/peripherals/mouse]
+speed=0.45588235294117641
+
+[org/gnome/desktop/peripherals/touchpad]
+click-method='fingers'
+speed=0.76470588235294112
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+disable-microphone=false
+report-technical-problems=true
+
+[org/gnome/desktop/screensaver]
+lock-delay=uint32 0
+picture-uri='file:///home/matt/Pictures/grand-tetons.jpg'
+
+[org/gnome/desktop/session]
+idle-delay=uint32 300
+
+[org/gnome/desktop/sound]
+allow-volume-above-100-percent=false
+
+[org/gnome/desktop/wm/preferences]
+titlebar-font='Garuda 12'
+
+[org/gnome/eog/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/file-roller/dialogs/extract]
+recreate-folders=true
+skip-newer=false
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=250
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=600
+
+[org/gnome/gedit/plugins]
+active-plugins=['modelines', 'spell', 'time', 'docinfo', 'filebrowser']
+
+[org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///dev/pts'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(900, 700)
+state=43908
+
+[org/gnome/mutter]
+experimental-features=['x11-randr-fractional-scaling']
+
+[org/gnome/nautilus/list-view]
+default-column-order=['name', 'size', 'type', 'owner', 'group', 'permissions', 'where', 'date_modified', 'date_modified_with_time', 'date_accessed', 'recency', 'starred', 'detailed_type']
+default-visible-columns=['name', 'size', 'type', 'date_modified', 'starred']
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='list-view'
+search-filter-time-type='last_modified'
+search-view='list-view'
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+maximized=true
+sidebar-width=200
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-temperature=uint32 3764
+
+[org/gnome/settings-daemon/plugins/media-keys]
+home=['<Super>e']
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[org/gnome/settings-daemon/plugins/xsettings]
+hinting='slight'
+
+[org/gnome/shell]
+app-picker-view=uint32 1
+command-history=['r']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com']
+favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'code.desktop', 'firefox.desktop', 'google-chrome.desktop', 'spotify_spotify.desktop', 'bitwarden_bitwarden.desktop']
+
+[org/gnome/shell/extensions/dash-to-dock]
+apply-custom-theme=true
+background-opacity=0.80000000000000004
+custom-background-color=true
+custom-theme-shrink=false
+dash-max-icon-size=48
+dock-fixed=true
+dock-position='BOTTOM'
+extend-height=false
+force-straight-corner=false
+preferred-monitor=0
+show-mounts=true
+show-trash=false
+transparency-mode='FIXED'
+
+[org/gnome/shell/extensions/desktop-icons]
+show-home=false
+show-trash=false
+
+[org/gnome/shell/extensions/user-theme]
+name='WhiteSur-light'
+
+[org/gnome/software]
+check-timestamp=int64 1609044336
+online-updates-timestamp=int64 1601220987
+
+[org/gnome/system/location]
+enabled=false
+
+[org/gnome/todo]
+default-provider='local'
+view='grid'
+window-maximized=false
+window-position=[8, 6]
+window-size=[2032, 992]
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=171
+sort-column='name'
+sort-directories-first=true
+sort-order='ascending'
+type-format='category'
+window-position=(422, 77)
+window-size=(1203, 902)
+
+[org/yorba/shotwell/preferences/ui]
+display-basic-properties=true
+display-extended-properties=false
+display-photo-comments=false
+display-photo-ratings=true
+display-photo-tags=true
+display-photo-titles=false
+display-search-bar=false
+display-sidebar=true
+events-sort-ascending=false
+library-photos-sort-ascending=false
+library-photos-sort-by=2
+show-welcome-dialog=false
+sidebar-position=180
+
+[org/yorba/shotwell/preferences/window]
+library-height=768
+library-maximize=false
+library-width=1024
