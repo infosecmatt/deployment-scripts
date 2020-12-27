@@ -18,7 +18,7 @@ In order to make snap packages work with icon packs, you need to go to /var/lib/
 
 
 ## Setup Process
-go into terminal, run the command '
+go into terminal, run the command 'git clone https://github.com/infosecmatt/ubuntu-deploy.git'
 Clone repository into the Downloads folder
 go into repository folder
 run the command 'chmod +x setup.sh'
