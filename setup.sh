@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo apt update && sudo apt upgrade
-sudo apt install -y chromium-browser vim docker docker-compose tmux flameshot
+sudo apt-get -y update && sudo apt-get -y upgrade
+sudo apt-get install -y chromium-browser vim docker docker-compose tmux flameshot net-tools 
 
 sudo snap install --classic code #vscode
 sudo snap install spotify
