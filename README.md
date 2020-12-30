@@ -34,4 +34,4 @@ Go into repository folder by running the following command: 'cd ~/Downloads/ubun
 
 Run the command 'chmod +x setup.sh'
 
-Run the command 'sudo ./setup.sh'
+Run the command './setup.sh'
