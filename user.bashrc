@@ -118,4 +118,5 @@ fi
 
 #user aliases
 alias vi=vim
-alias htb='sudo openvpn /pentest/htb/infosecmatt.ovpn 1&>/dev/null; sudo docker-compose -f /home/matt/code/pentesting-container/docker-compose.yml run pentesting bash; sudo pkill openvpn'
+alias htb="sudo docker-compose -f $HOME/code/pentesting-container/docker-compose.yml run pentesting bash"
+alias htb-kill="sudo docker-compose -f $HOME/code/pentesting-container/docker-compose.yml rm"
