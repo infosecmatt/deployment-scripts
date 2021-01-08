@@ -22,8 +22,8 @@ sudo cp -r Tela-circle/ Tela-circle-dark/ /usr/share/icons/
 dconf load / < settings.dconf
 
 #config files
-cp $HOME/Downloads/ubuntu-deploy/user.bashrc $HOME
+cp $HOME/Downloads/ubuntu-deploy/user.bashrc $HOME/.bashrc
 cp $HOME/Downloads/ubuntu-deploy/.tmux.conf $HOME
 sudo cp $HOME/Downloads/ubuntu-deploy/.tmux.conf /root
-sudo cp $HOME/Downloads/ubuntu-deploy/root.bashrc /root
+sudo cp $HOME/Downloads/ubuntu-deploy/root.bashrc /root/.bashrc
 
